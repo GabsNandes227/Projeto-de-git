@@ -1,0 +1,24 @@
+# Criando um diretório para o projeto
+mkdir calculadora_projeto
+
+# Acessando o diretório
+cd calculadora_projeto
+
+# Criando o arquivo com nano
+nano calculadora.sh
+
+# (colar o código da calculadora dentro do nano)
+
+# Salvando no nano:
+# CTRL + O
+# ENTER
+# CTRL + X
+
+# Definindo permissões conforme pedido (rw-r--r--)
+chmod 644 calculadora.sh
+
+# Tornando o arquivo executável
+chmod +x calculadora.sh
+
+# Executando o script
+./calculadora.sh
